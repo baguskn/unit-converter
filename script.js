@@ -43,7 +43,7 @@ function render() {
         conversionHtml += ` = ${result1.toFixed(3)} ${units[i].unit2}`
         if (result1>1) { conversionHtml += `s`}
 
-        conversionHtml += ` | ${inputValue} ${units[i].unit2}`
+        conversionHtml += `<br>${inputValue} ${units[i].unit2}`
         if (inputValue>1) { conversionHtml += `s`}
 
         conversionHtml += ` = ${result2.toFixed(3)} ${units[i].unit1}`
